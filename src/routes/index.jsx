@@ -1,12 +1,18 @@
 import Dashboard from "../pages/Dashboard/Dashboard";
+import Login from "../pages/Login/Login";
 
 const routes = [
   {
     name: "Dashboard",
     key: "dashboard",
-    path: "/",
+    path: "/dashboard",
     component: <Dashboard />,
-    private: true,
+  },
+  {
+    name: "Login",
+    key: "login",
+    path: "/",
+    component: <Login />,
   },
 ];
 
